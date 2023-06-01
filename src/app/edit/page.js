@@ -1,9 +1,4 @@
 
+import newPageForm from "../../new/page";
 
-const Edit = ({params}) => {
-  return (
-   <h1>Edit {params.id}</h1>
-  )
-}
-
-export default Edit
+export default newPageForm;
